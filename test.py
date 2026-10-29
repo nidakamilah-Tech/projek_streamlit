@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("My Streanlit App")
+st.title("My Streamlit App")
 with st.form(key="my_form"):
     name = st.text_input("Nama Lengkap")
     jenis_kelamin = st.radio("Jenis Kelamin", ("Laki-Laki" ,"Perempuan"))
